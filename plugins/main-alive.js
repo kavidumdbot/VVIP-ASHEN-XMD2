@@ -8,7 +8,7 @@ lite({
     alias: ["status", "online", "a"],
     desc: "Check if bot is alive and running",
     category: "main",
-    react: "⚡",
+    react: "🎯",
     filename: __filename
 }, async (conn, mek, m, { from, sender, reply }) => {
     try {
@@ -40,7 +40,7 @@ lite({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363402507750390@newsletter',
-                    newsletterName: 'Malvin Tech',
+                    newsletterName: 'VVIP-ASHEN-XMD',
                     serverMessageId: 143
                 }
             }
