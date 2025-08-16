@@ -7,7 +7,7 @@ const axios = require('axios');
 
 lite({
     pattern: "menu",
-    react: "🤖",
+    react: "👾",
     alias: ["allmenu"],
     desc: "Get command list",
     category: "main",
@@ -87,7 +87,7 @@ ${menu.fun || '│ (No commands found)'}
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363402507750390@newsletter',
-                        newsletterName: 'Lite XD',
+                        newsletterName: 'VVIP-ASHEN-XMD',
                         serverMessageId: 143
                     }
                 }
@@ -97,7 +97,7 @@ ${menu.fun || '│ (No commands found)'}
 
         await conn.sendMessage(from, {
             audio: fs.readFileSync('./all/menu.m4a'),
-            mimetype: 'audio/mp4',
+            mimetype: '',
             ptt: true
         }, { quoted: mek });
 
